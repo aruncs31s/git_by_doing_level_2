@@ -3,7 +3,6 @@
 Task: Understanding `git add` and `git status`
 
 > [!IMPORTANT]
-> I have already submitted my changes use git log to figure out where it is
 > First Run `task_1.py`
 >```bash
 >python task_1.py
