@@ -21,7 +21,8 @@ if contents.get("task_2" , "undone")  == "done":
     exit(0)
 
 print("Level 2".center(50, "="))
-print()
+print("Task 2".center(10))
+
 print()
 if run_count == 0:
     print("You will learn about the status command here")

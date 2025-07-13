@@ -11,29 +11,20 @@ except Exception as e:
     # print(f"Error {e}")
     contents = data
 
-if contents["task_1"].strip() == "done":
-    print("This can only Run Once")
+if contents.get("task_1", "undone") == "done":
+    print("This can only run Once")
     exit(0)
 
 
 print("Level 2".center(50, "="))
+print("Task 1".center(10))
 
-print()
-print(
-    """
-You will learn about the add subcommand here 
-"""
-)
 
-print("Task".center(50, "="))
 print(
     """
 There is a file named add_me in this folder add that to git using  git add \n
-The format is like $ git add file_name 
-
 """
 )
-print()
 
 
 print("Question 1: ")
