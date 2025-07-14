@@ -94,6 +94,12 @@ is says `.... to unstage` so the file add_me is `staged`.
 2. When you modify an exisiting file and upload the modified file.
 
 
+>[!TIP] 
+> You can add multiple files or just add all files using `-A` option
+> ```bash
+> git add -A
+>```
+
 ## `git restore`
 
 As i've said earlier , when you use  `git add` the file get stages , so when i file staged the `git` start do things to that file , and one of them is to keep a copy of that file and if you accidently delete a staged file , you can recover it using the following command
