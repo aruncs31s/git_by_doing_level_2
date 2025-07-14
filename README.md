@@ -24,6 +24,15 @@ Task: Understanding `git add` and `git status`
 > ```bash
 > python task_2.py
 > ```
+> Then Run `task_3.py`
+>
+> ```bash
+> python task_2.py
+> ```
+> After finishing the Task 3, run the quiz.py
+>```python
+> python quiz.py
+>```
 
 ## `git add`
 
